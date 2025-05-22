@@ -1,0 +1,56 @@
+:root{
+    --grey:#F5F5F5;
+    --white:#ffffff;
+    --buttonbgc: #518C89;
+}
+
+body{
+  background-color:var(--grey);
+  font-family: "Delius Swash Caps", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.wrapper{
+    background-color:var(--white);
+    border:0.3rem solid transparent;
+    border-radius:10px;
+    display:block;
+    grid-template-columns: 1fr;
+    padding:0.3rem;
+    margin:0 auto;
+    margin-top:2rem;
+    width:600px;
+    height:650px;
+    text-align: center;
+}
+
+
+
+form{
+    display: inline-block;
+    text-align:left;
+    margin:0;
+    text-align: left;
+}
+
+label{
+    font-size:1.3rem;
+    font-weight:bold;
+}
+select, input, button{
+    padding:0.3rem;
+    width: 400px;
+}
+
+button{
+    background-color: var(--buttonbgc);
+    color:var(--white);
+    font-size:1.3rem;
+}
+
+img {
+    width: 200px; /* // Make img fit in parent container*/
+}
